@@ -1,1 +1,1 @@
-# celery-sprout
+# Celery Sprout
