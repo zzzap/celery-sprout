@@ -1,16 +1,18 @@
 from distutils.core import setup
 from setuptools import find_packages
 
+VERSION = '0.0.3'
+
 setup(
     name='celery-sprout',
     packages=find_packages(),
-    version='0.0.2',
+    version=VERSION,
     description='Generate Web UI to run Celery tasks',
     author='Vladimir Makushkin',
     author_email='makushkin.v@gmail.com',
     url='https://github.com/zzzap/celery-sprout',
     license='MIT',
-    download_url='https://github.com/zzzap/celery-sprout/tarball/0.0.1',
+    download_url='https://github.com/zzzap/celery-sprout/tarball/%s' % VERSION,
     keywords=['celery'],
     classifiers=[
         'Development Status :: 3 - Alpha',
