@@ -4,7 +4,7 @@ from setuptools import find_packages
 setup(
     name='celery-sprout',
     packages=find_packages(),
-    version='0.0.1',
+    version='0.0.2',
     description='Generate Web UI to run Celery tasks',
     author='Vladimir Makushkin',
     author_email='makushkin.v@gmail.com',
